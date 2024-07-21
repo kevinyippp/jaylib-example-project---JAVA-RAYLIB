@@ -62,7 +62,7 @@ public class Raygui {
 
             ClearBackground(RAYWHITE);
 
-            exitWindow = GuiWindowBox(new Jaylib.Rectangle(0, 0, screenWidth, screenHeight ), "#198# PORTABLE WINDOW");
+            //exitWindow = GuiWindowBox(new Jaylib.Rectangle(0, 0, screenWidth, screenHeight ), "#198# PORTABLE WINDOW");
 
             DrawText(("Mouse Position: [" + mousePosition.x()+", "+ mousePosition.y()+"]"), 10, 40, 10, DARKGRAY);
 
